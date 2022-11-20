@@ -1,13 +1,12 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   background: #222;
-  background-image: url('https://source.unsplash.com/1600x900/?landscape');
-  font-size: 120%;
+  background-size:100%;
+  font-size: 100%;
 }
 
 .card {
@@ -16,7 +15,8 @@ body {
   padding: 2em;
   border-radius: 30px;
   width: 100%;
-  max-width: 420px;
+  max-width: 40%;
+  max-height: 40%;
   margin: 1em;
 }
 
